@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" href="BANDEIRINHA.png" type="image/x-png">
+  <title>Speed Racer</title>
+  <!-- Lib -->
+  <script src="./lib/p5.min.js"></script>
+  <script src="./lib/p5.dom.min.js"></script>
+  <script src="./lib/p5.sound.min.js"></script>
+  <script src="./lib/p5.play.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+
+  <script>
+    // dados do banco
+    const firebaseConfig = {
+  apiKey: "AIzaSyBscKoz7-s40Y7Jwsa4xfiZAYlfGNnjfQM",
+  authDomain: "cargame-fc5d8.firebaseapp.com",
+  databaseURL: "https://cargame-fc5d8-default-rtdb.firebaseio.com",
+  projectId: "cargame-fc5d8",
+  storageBucket: "cargame-fc5d8.appspot.com",
+  messagingSenderId: "576481686299",
+  appId: "1:576481686299:web:24d9b0060a7057af8e19be"
+};
+
+
+
+
+
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+</head>
+
+<body>
+  <script src="./sketch.js"></script>
+  <script src="./js/Game.js"></script>
+  <script src="./js/Form.js"></script>
+  <script src="./js/Player.js"></script>
+</body>
+
+</html>
